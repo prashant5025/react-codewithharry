@@ -2,14 +2,14 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Call</li>
-          <li>meet me</li>
+    <div className='container'>
+      <nav className='nav'>
+        <ul className='nav-links'>
+          <li className=''>Home</li>
+          <li className=''>About</li>
+          <li className=''>Contact</li>
+          <li className=''>Call</li>
+          <li className=''>meet me</li>
         </ul>
       </nav>
     </div>
