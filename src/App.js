@@ -1,8 +1,7 @@
 import './App.css';
 import React from 'react';
 
-let name = "prashant singh";
-const element = React.createElement('h1', {className: 'greeting'}, 'Hello World');
+const name = 'John Doe';
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
           <li>Contact</li>
           <li>About me</li>
           <li>Login</li>
+          
         </ul>
       </nav>
       <h1>Hello {name}</h1>
